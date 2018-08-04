@@ -1,0 +1,32 @@
+
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* vh stands for vertical height. The number represents a percentage of the full viewport height. 100vh takes up the whole available vertical space */
+  min-height: 600px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
